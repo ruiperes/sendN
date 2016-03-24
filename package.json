@@ -1,0 +1,32 @@
+{
+  "name": "sendn",
+  "version": "1.2.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ruiperes",
+  "license": "ISC",
+  "keywords": [
+    "send",
+    "android",
+    "notifications",
+    "push notifications"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruiperes/sendn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruiperes/sendn/issues"
+  },
+  "homepage": "https://github.com/ruiperes/sendn",
+  "dependencies": {
+    "request": "^2.69.0",
+    "yargs": "^4.3.2"
+  },
+  "README": ".\read.me",
+  "bin": {
+    "sendn": "./index.js"
+  }
+}
